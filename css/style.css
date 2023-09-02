@@ -1,0 +1,381 @@
+body {
+  font-family: monospace;
+}
+
+.header {
+  background-image: url("../img/header-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+}
+.header-top {
+  background-color: rgba(240, 230, 230, 0);
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+.header-top-logo {
+  display: flex;
+  align-items: center;
+}
+.header-top-logo .logo-img img {
+  font-size: 15px;
+  width: 50px;
+}
+.header-top-logo .logo-name {
+  margin-left: 8px;
+  font-weight: bold;
+  font-size: 32px;
+}
+.header-top-navbar {
+  display: flex;
+}
+.header-top-navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-top-navbar ul li {
+  margin: 0 20px;
+}
+.header-top-navbar ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+}
+.header-top-navbar .btn-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-top-navbar .btn-group .btn-item {
+  margin-right: 20px;
+}
+.header-top-navbar .btn-group .btn-item button {
+  font-size: 22px;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 25px;
+}
+.header-top-navbar .btn-group .btn-item .btn-login {
+  background-color: white;
+  border: 1px solid black;
+  font-weight: bold;
+}
+.header-content {
+  margin: 100px;
+  width: 40%;
+}
+.header-content .content {
+  margin-bottom: 25px;
+}
+.header-content .content h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+.header-content .content h1 span {
+  color: #f48c06;
+}
+.header-content .content p {
+  font-size: 24px;
+  line-height: 1.2;
+}
+.header-content .btn-list {
+  display: flex;
+  align-items: center;
+}
+.header-content .btn-list .btn-item {
+  margin-right: 15px;
+}
+.header-content .btn-list .btn-item .btn-join {
+  font-size: 22px;
+  border: none;
+  border-radius: 30px;
+  padding: 20px 30px;
+}
+.header-content .btn-list .btn-item .btn-watch {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+.header-content .btn-list .btn-item .btn-watch img {
+  width: 35%;
+}
+.header-content .btn-list .btn-item span {
+  font-size: 24px;
+}
+.header .btn-blue {
+  background-color: #21c8f6;
+  color: white;
+}
+
+.main {
+  width: 70%;
+  margin: 0 auto;
+}
+.main .company-section {
+  margin: 150px 0;
+}
+.main .company-section-text {
+  font-size: 28px;
+  color: #696984;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.main .company-section-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.main .solution {
+  margin-bottom: 150px;
+}
+.main .solution-text {
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 50px;
+}
+.main .solution-text h2 {
+  font-size: 36px;
+}
+.main .solution-text p {
+  font-size: 24px;
+  margin-top: 15px;
+}
+.main .solution-list {
+  display: flex;
+  text-align: center;
+}
+.main .solution-list .solution-item {
+  border-radius: 20px;
+  box-shadow: 0px 0px 17px 0px #d4cece;
+  margin: 20px;
+}
+.main .solution-list .solution-item .solution-icon {
+  background-color: rgba(99, 122, 255, 0.368627451);
+  margin: 30px auto;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .solution-list .solution-item .solution-name h4 {
+  font-size: 30px;
+}
+.main .solution-list .solution-item .solution-content {
+  margin: 20px 40px 60px 40px;
+}
+.main .solution-list .solution-item .solution-content p {
+  font-size: 20px;
+}
+.main .learn-ease {
+  margin-bottom: 150px;
+}
+.main .learn-ease-title h2 {
+  text-align: center;
+  font-size: 44px;
+}
+.main .learn-ease-content p {
+  text-align: center;
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 30px 0;
+}
+.main .learn-ease-list {
+  display: flex;
+}
+.main .learn-ease-list .learn-item {
+  width: 100%;
+  height: 400px;
+  margin: 40px;
+  color: white;
+  border-radius: 50px;
+  position: relative;
+}
+.main .learn-ease-list .learn-item .mask {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  border-radius: 50px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.main .learn-ease-list .learn-item .mask .content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.main .learn-ease-list .learn-item .mask .content h4 {
+  font-size: 32px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.main .learn-ease-list .learn-item .mask .content .btn-learn {
+  text-align: center;
+}
+.main .learn-ease-list .learn-item .mask .content .btn-learn button {
+  padding: 20px;
+  border-radius: 50px;
+  border: 1px solid white;
+}
+.main .learn-ease-list .lf-instructor {
+  background-image: url(../img/for-instructor.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main .learn-ease-list .lf-student {
+  background-image: url(../img/for-student.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main .everything {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.main .everything-content {
+  padding: 30px 40px 0 0;
+}
+.main .everything-content .title {
+  font-size: 36px;
+  line-height: 1.3;
+}
+.main .everything-content p {
+  font-size: 24px;
+  margin: 15px 0;
+  line-height: 1.3;
+}
+.main .everything-content a {
+  font-size: 22px;
+}
+.main .everything-img img {
+  width: 100%;
+}
+.main .feature {
+  margin: 70px 0;
+}
+.main .feature-title {
+  text-align: center;
+}
+.main .feature-title h2 {
+  text-align: center;
+  font-size: 44px;
+}
+.main .feature-title p {
+  margin: 20px 0 50px 0;
+  font-size: 24px;
+}
+.main .feature-list .feature-item {
+  display: flex;
+  align-items: center;
+}
+.main .feature-list .feature-item h3 {
+  line-height: 1.3;
+  margin-top: 20px;
+  font-size: 40px;
+}
+.main .feature-list .feature-item p {
+  line-height: 1.3;
+  font-size: 22px;
+}
+.main .feature-list .feature-item .list .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.main .feature-list .feature-item .list .item p {
+  margin-left: 20px;
+  font-size: 22px;
+}
+.main .feature .btn-feature {
+  text-align: center;
+}
+.main .feature .btn-feature .btn-see-more {
+  border-radius: 30px;
+  padding: 18px 30px;
+  border: 1px solid #f48c06;
+  background-color: white;
+  color: #f48c06;
+  cursor: pointer;
+}
+.main .testimonial {
+  display: flex;
+}
+.main .testimonial-content h2 {
+  font-size: 20px;
+}
+.main .testimonial-content .content-main h3 {
+  font-size: 60px;
+  margin: 30px 0;
+}
+.main .testimonial-content .content-main p {
+  font-size: 26px;
+  color: #696984;
+  margin-bottom: 15px;
+  line-height: 1.3;
+}
+.main .testimonial-content .btn-testimonial .btn-write {
+  border-radius: 30px;
+  padding: 18px 30px;
+  border: 1px solid #f48c06;
+  background-color: white;
+  color: #f48c06;
+  cursor: pointer;
+}
+.main .news {
+  margin: 90px 0;
+}
+.main .news-title {
+  text-align: center;
+  margin-bottom: 70px;
+}
+.main .news-title h2 {
+  font-size: 36px;
+}
+.main .news-title p {
+  font-size: 24px;
+  margin-top: 25px;
+}
+.main .news-main {
+  display: flex;
+}
+.main .news-main .news-right {
+  display: flex;
+}
+
+.text-orange {
+  color: #f48c06;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-purple {
+  color: #2f327d;
+}
+
+.text-purple-dark {
+  color: #696984;
+}
+
+.text-dark {
+  color: #252641;
+}
+
+/*# sourceMappingURL=style.css.map */
